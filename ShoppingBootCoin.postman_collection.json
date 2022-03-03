@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "5f4ee918-adb9-4fc7-be71-f80117bbf7e3",
+		"name": "ShoppingBootCoin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Shopping bootCoin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8002/ShoppingBootCoin/Data/amount/500/paymode/TRANSACCION/numberPhone/912119605",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"ShoppingBootCoin",
+						"Data",
+						"amount",
+						"500",
+						"paymode",
+						"TRANSACCION",
+						"numberPhone",
+						"912119605"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

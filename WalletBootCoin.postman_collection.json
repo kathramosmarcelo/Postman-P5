@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "a3867447-3afe-4781-b28c-c01b0bd98690",
+		"name": "WalletBootCoin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8003/WalletBootCoin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"Wallet001\",\r\n\t\"amount\": \"200\",\r\n\t\"numberPhone\": \"917639112\",\r\n    \"document\": \"76398855\",\r\n\t\"email\": \"katherine@gmail.com\",\r\n\t\"account\": \"76369-1215\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8003/WalletBootCoin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8003",
+					"path": [
+						"WalletBootCoin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
